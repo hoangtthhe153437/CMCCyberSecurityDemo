@@ -439,3 +439,55 @@ FROM [Products] AS [p]
 2024-10-02 21:57:13.966 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity) in 4603.1863ms
 2024-10-02 21:57:13.966 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity)'
 2024-10-02 21:57:13.966 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Product - - - 200 - application/json;+charset=utf-8 4605.0068ms
+2024-10-02 22:31:54.099 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-02 22:31:54.316 +07:00 [INF] Now listening on: https://localhost:7153
+2024-10-02 22:31:54.317 +07:00 [INF] Now listening on: http://localhost:5211
+2024-10-02 22:31:54.320 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-02 22:31:54.320 +07:00 [INF] Hosting environment: Development
+2024-10-02 22:31:54.320 +07:00 [INF] Content root path: D:\test\DuAnTest\CMCCyberSecurityDemo\CMCCyberSecurity\
+2024-10-02 22:31:57.981 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-10-02 22:31:58.259 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 277.8999ms
+2024-10-02 22:31:58.488 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-10-02 22:31:58.489 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-10-02 22:31:58.493 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 4.1867ms
+2024-10-02 22:31:59.557 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1068.7269ms
+2024-10-02 22:31:59.590 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-10-02 22:31:59.691 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.7914ms
+2024-10-02 22:32:16.420 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Auth/login application/json 67
+2024-10-02 22:32:16.480 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity)'
+2024-10-02 22:32:16.511 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CMCCyberSecurity.DTO.UserLoginDTO) on controller CMCCyberSecurity.Controllers.AuthController (CMCCyberSecurity).
+2024-10-02 22:32:17.148 +07:00 [INF] Entity Framework Core 6.0.33 initialized 'CMCCyberSecurityContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-10-02 22:32:17.778 +07:00 [INF] Executed DbCommand (68ms) [Parameters=[@__user_Email_0='?' (Size = 50) (DbType = AnsiString), @__HMACSHA256_1='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE ([u].[Email] = @__user_Email_0) AND ([u].[Password] = @__HMACSHA256_1)
+2024-10-02 22:32:17.980 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-02 22:32:17.987 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity) in 1471.5917ms
+2024-10-02 22:32:17.988 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity)'
+2024-10-02 22:32:17.998 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Auth/login application/json 67 - 200 - application/json;+charset=utf-8 1577.9979ms
+2024-10-02 22:35:30.477 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-02 22:35:30.701 +07:00 [INF] Now listening on: https://localhost:7153
+2024-10-02 22:35:30.701 +07:00 [INF] Now listening on: http://localhost:5211
+2024-10-02 22:35:30.704 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-02 22:35:30.705 +07:00 [INF] Hosting environment: Development
+2024-10-02 22:35:30.705 +07:00 [INF] Content root path: D:\test\DuAnTest\CMCCyberSecurityDemo\CMCCyberSecurity\
+2024-10-02 22:35:30.942 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-10-02 22:35:31.189 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 249.5821ms
+2024-10-02 22:35:31.424 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-10-02 22:35:31.424 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-10-02 22:35:31.427 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3.3590ms
+2024-10-02 22:35:31.468 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.5882ms
+2024-10-02 22:35:31.758 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-10-02 22:35:31.853 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 94.5478ms
+2024-10-02 22:35:52.741 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Auth/login application/json 67
+2024-10-02 22:35:52.799 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity)'
+2024-10-02 22:35:52.832 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CMCCyberSecurity.DTO.UserLoginDTO) on controller CMCCyberSecurity.Controllers.AuthController (CMCCyberSecurity).
+2024-10-02 22:35:53.528 +07:00 [INF] Entity Framework Core 6.0.33 initialized 'CMCCyberSecurityContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-10-02 22:35:54.256 +07:00 [INF] Executed DbCommand (78ms) [Parameters=[@__user_Email_0='?' (Size = 50) (DbType = AnsiString), @__HMACSHA256_1='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE ([u].[Email] = @__user_Email_0) AND ([u].[Password] = @__HMACSHA256_1)
+2024-10-02 22:35:54.465 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-02 22:35:54.474 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity) in 1635.9121ms
+2024-10-02 22:35:54.476 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity)'
+2024-10-02 22:35:54.489 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Auth/login application/json 67 - 200 - application/json;+charset=utf-8 1747.8131ms

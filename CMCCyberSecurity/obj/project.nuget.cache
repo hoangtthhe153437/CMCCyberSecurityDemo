@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kMGRLMA0fuPoOiLpkQXQ9m5FgNgfJw2WQrmMTHxCcTrKDnZ7K+J7hRrkL/0AnMhO3jvZr9XntG/cYpTkMPNmkA==",
+  "dgSpecHash": "RBnU3/FikW+5bTGZAS0/WDKZenvzcB4ThrxDxDVvtW+XlHcaPJc1IwQGO/5vjPmWGxtSuheUsh5jvnX+xh16QQ==",
   "success": true,
-  "projectFilePath": "D:\\test\\CMCCyberSecurity\\CMCCyberSecurity\\CMCCyberSecurity.csproj",
+  "projectFilePath": "D:\\test\\DuAnTest\\CMCCyberSecurityDemo\\CMCCyberSecurity\\CMCCyberSecurity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.33\\microsoft.aspnetcore.authentication.jwtbearer.6.0.33.nupkg.sha512",

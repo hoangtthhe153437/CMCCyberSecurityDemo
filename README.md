@@ -2,6 +2,10 @@
 
 Dựa theo yêu cầu của bài test từ quý công ty đề ra, tôi có chuẩn bị source code và hãy làm theo các bước dưới đây để có thể chạy dự án:
 
+## Cài đặt SDK
+
+**Dự án sử dụng .NET 6 nên bạn có thể dowload sdk trước khi thực hiện : https://dotnet.microsoft.com/en-us/download/dotnet/6.0**
+
 ## Các bước thực hiện để chạy dự án:
 
 1. **Clone source code**:

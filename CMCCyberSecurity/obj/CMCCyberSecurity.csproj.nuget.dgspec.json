@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\test\\CMCCyberSecurity\\CMCCyberSecurity\\CMCCyberSecurity.csproj": {}
+    "D:\\test\\DuAnTest\\CMCCyberSecurityDemo\\CMCCyberSecurity\\CMCCyberSecurity.csproj": {}
   },
   "projects": {
-    "D:\\test\\CMCCyberSecurity\\CMCCyberSecurity\\CMCCyberSecurity.csproj": {
+    "D:\\test\\DuAnTest\\CMCCyberSecurityDemo\\CMCCyberSecurity\\CMCCyberSecurity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\test\\CMCCyberSecurity\\CMCCyberSecurity\\CMCCyberSecurity.csproj",
+        "projectUniqueName": "D:\\test\\DuAnTest\\CMCCyberSecurityDemo\\CMCCyberSecurity\\CMCCyberSecurity.csproj",
         "projectName": "CMCCyberSecurity",
-        "projectPath": "D:\\test\\CMCCyberSecurity\\CMCCyberSecurity\\CMCCyberSecurity.csproj",
+        "projectPath": "D:\\test\\DuAnTest\\CMCCyberSecurityDemo\\CMCCyberSecurity\\CMCCyberSecurity.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\test\\CMCCyberSecurity\\CMCCyberSecurity\\obj\\",
+        "outputPath": "D:\\test\\DuAnTest\\CMCCyberSecurityDemo\\CMCCyberSecurity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
