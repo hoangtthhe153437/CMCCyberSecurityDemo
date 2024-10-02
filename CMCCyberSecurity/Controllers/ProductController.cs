@@ -22,6 +22,7 @@ namespace CMCCyberSecurity.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
             const string cacheKey = "productList";
@@ -37,6 +38,7 @@ namespace CMCCyberSecurity.Controllers
         }
 
         [HttpGet("{id}")]
+        [AllowAnonymous]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
             var product = await _context.Products.FindAsync(id) ?? throw new HttpStatusException("Product not found", EnumHelper.ECode.NotFound);
