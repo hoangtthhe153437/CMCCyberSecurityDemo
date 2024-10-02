@@ -1,0 +1,441 @@
+2024-10-02 20:42:50.350 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-10-02 20:42:50.403 +07:00 [DBG] Hosting starting
+2024-10-02 20:42:50.429 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-02 20:42:50.431 +07:00 [DBG] Reading data from file 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys\key-1ec8f2c1-d228-4a3c-b0cd-7fb61797570e.xml'.
+2024-10-02 20:42:50.434 +07:00 [DBG] Reading data from file 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys\key-20810887-55e7-4d6f-9acd-a0aaf1152fb8.xml'.
+2024-10-02 20:42:50.434 +07:00 [DBG] Reading data from file 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys\key-62432e7c-261f-4210-bfde-8ffe2feace26.xml'.
+2024-10-02 20:42:50.434 +07:00 [DBG] Reading data from file 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys\key-648039a7-a3c2-4157-bce2-da494c437593.xml'.
+2024-10-02 20:42:50.434 +07:00 [DBG] Reading data from file 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys\key-6830e730-844b-41ba-a52b-7f922fa160ad.xml'.
+2024-10-02 20:42:50.434 +07:00 [DBG] Reading data from file 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys\key-f76ab593-f46b-4f29-8393-bb6681b222d8.xml'.
+2024-10-02 20:42:50.438 +07:00 [DBG] Found key {1ec8f2c1-d228-4a3c-b0cd-7fb61797570e}.
+2024-10-02 20:42:50.439 +07:00 [DBG] Found key {20810887-55e7-4d6f-9acd-a0aaf1152fb8}.
+2024-10-02 20:42:50.439 +07:00 [DBG] Found key {62432e7c-261f-4210-bfde-8ffe2feace26}.
+2024-10-02 20:42:50.439 +07:00 [DBG] Found key {648039a7-a3c2-4157-bce2-da494c437593}.
+2024-10-02 20:42:50.440 +07:00 [DBG] Found key {6830e730-844b-41ba-a52b-7f922fa160ad}.
+2024-10-02 20:42:50.440 +07:00 [DBG] Found key {f76ab593-f46b-4f29-8393-bb6681b222d8}.
+2024-10-02 20:42:50.446 +07:00 [DBG] Considering key {62432e7c-261f-4210-bfde-8ffe2feace26} with expiration date 2024-12-30 13:39:05Z as default key.
+2024-10-02 20:42:50.447 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-02 20:42:50.450 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2024-10-02 20:42:50.451 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-10-02 20:42:50.454 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-10-02 20:42:50.455 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-10-02 20:42:50.457 +07:00 [DBG] Using key {62432e7c-261f-4210-bfde-8ffe2feace26} as the default key.
+2024-10-02 20:42:50.457 +07:00 [DBG] Key ring with default key {62432e7c-261f-4210-bfde-8ffe2feace26} was loaded during application startup.
+2024-10-02 20:42:50.582 +07:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 6D69EB256BCAF037471FED0059627DDB3DB6FAE2)
+2024-10-02 20:42:50.621 +07:00 [INF] Now listening on: https://localhost:7153
+2024-10-02 20:42:50.621 +07:00 [INF] Now listening on: http://localhost:5211
+2024-10-02 20:42:50.621 +07:00 [DBG] Loaded hosting startup assembly CMCCyberSecurity
+2024-10-02 20:42:50.621 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-10-02 20:42:50.621 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-10-02 20:42:50.621 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-02 20:42:50.621 +07:00 [INF] Hosting environment: Development
+2024-10-02 20:42:50.621 +07:00 [INF] Content root path: D:\test\CMCCyberSecurity\CMCCyberSecurity\
+2024-10-02 20:42:50.621 +07:00 [DBG] Hosting started
+2024-10-02 20:42:50.997 +07:00 [DBG] Connection id "0HN72T0E04KO8" received FIN.
+2024-10-02 20:42:50.997 +07:00 [DBG] Connection id "0HN72T0E04KO7" received FIN.
+2024-10-02 20:42:51.003 +07:00 [DBG] Connection id "0HN72T0E04KO8" accepted.
+2024-10-02 20:42:51.003 +07:00 [DBG] Connection id "0HN72T0E04KO7" accepted.
+2024-10-02 20:42:51.004 +07:00 [DBG] Connection id "0HN72T0E04KO7" started.
+2024-10-02 20:42:51.004 +07:00 [DBG] Connection id "0HN72T0E04KO8" started.
+2024-10-02 20:42:51.015 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, Boolean isApm, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-02 20:42:51.015 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, Boolean isApm, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-10-02 20:42:51.040 +07:00 [DBG] Connection id "0HN72T0E04KO7" stopped.
+2024-10-02 20:42:51.040 +07:00 [DBG] Connection id "0HN72T0E04KO8" stopped.
+2024-10-02 20:42:51.043 +07:00 [DBG] Connection id "0HN72T0E04KO8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-02 20:42:51.043 +07:00 [DBG] Connection id "0HN72T0E04KO7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-10-02 20:42:58.402 +07:00 [DBG] Connection id "0HN72T0E04KO9" accepted.
+2024-10-02 20:42:58.402 +07:00 [DBG] Connection id "0HN72T0E04KO9" started.
+2024-10-02 20:42:58.431 +07:00 [DBG] Connection 0HN72T0E04KO9 established using the following protocol: "Tls13"
+2024-10-02 20:42:58.481 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-10-02 20:42:58.592 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-10-02 20:42:58.609 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-10-02 20:42:58.609 +07:00 [DBG] Request did not match any endpoints
+2024-10-02 20:42:58.706 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-10-02 20:42:58.726 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2024-10-02 20:42:58.732 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 254.5580ms
+2024-10-02 20:42:58.952 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-10-02 20:42:58.952 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-10-02 20:42:58.956 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3.9292ms
+2024-10-02 20:42:59.011 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.6372ms
+2024-10-02 20:42:59.393 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-10-02 20:42:59.393 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-10-02 20:42:59.393 +07:00 [DBG] Request did not match any endpoints
+2024-10-02 20:42:59.499 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 106.0411ms
+2024-10-02 20:44:38.402 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-02 20:44:38.713 +07:00 [INF] Now listening on: https://localhost:7153
+2024-10-02 20:44:38.713 +07:00 [INF] Now listening on: http://localhost:5211
+2024-10-02 20:44:38.717 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-02 20:44:38.717 +07:00 [INF] Hosting environment: Development
+2024-10-02 20:44:38.717 +07:00 [INF] Content root path: D:\test\CMCCyberSecurity\CMCCyberSecurity\
+2024-10-02 20:44:45.027 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-10-02 20:44:45.273 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 248.7937ms
+2024-10-02 20:44:45.464 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-10-02 20:44:45.464 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-10-02 20:44:45.468 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3.2311ms
+2024-10-02 20:44:45.514 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 50.2056ms
+2024-10-02 20:44:45.923 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-10-02 20:44:46.034 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.3510ms
+2024-10-02 20:45:17.526 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7153/api/Product/123 - -
+2024-10-02 20:45:17.981 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2024-10-02 20:45:17.988 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-02 20:45:17.988 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7153/api/Product/123 - - - 401 0 - 462.8935ms
+2024-10-02 20:45:42.472 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Auth/login application/json 67
+2024-10-02 20:45:42.480 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity)'
+2024-10-02 20:45:42.522 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CMCCyberSecurity.DTO.UserLoginDTO) on controller CMCCyberSecurity.Controllers.AuthController (CMCCyberSecurity).
+2024-10-02 20:45:43.596 +07:00 [INF] Entity Framework Core 6.0.33 initialized 'CMCCyberSecurityContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-10-02 20:45:44.795 +07:00 [INF] Executed DbCommand (69ms) [Parameters=[@__user_Email_0='?' (Size = 50) (DbType = AnsiString), @__HMACSHA256_1='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE ([u].[Email] = @__user_Email_0) AND ([u].[Password] = @__HMACSHA256_1)
+2024-10-02 20:45:45.082 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-02 20:45:45.089 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity) in 2562.8569ms
+2024-10-02 20:45:45.090 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity)'
+2024-10-02 20:45:45.103 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Auth/login application/json 67 - 200 - application/json;+charset=utf-8 2631.1657ms
+2024-10-02 20:45:56.847 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Auth/login application/json 67
+2024-10-02 20:45:56.922 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity)'
+2024-10-02 20:45:56.922 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CMCCyberSecurity.DTO.UserLoginDTO) on controller CMCCyberSecurity.Controllers.AuthController (CMCCyberSecurity).
+2024-10-02 20:45:56.931 +07:00 [INF] Entity Framework Core 6.0.33 initialized 'CMCCyberSecurityContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-10-02 20:45:56.953 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@__user_Email_0='?' (Size = 50) (DbType = AnsiString), @__HMACSHA256_1='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE ([u].[Email] = @__user_Email_0) AND ([u].[Password] = @__HMACSHA256_1)
+2024-10-02 20:45:56.954 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-02 20:45:56.954 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity) in 31.6489ms
+2024-10-02 20:45:56.954 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity)'
+2024-10-02 20:45:56.954 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Auth/login application/json 67 - 200 - application/json;+charset=utf-8 107.0423ms
+2024-10-02 20:46:01.281 +07:00 [INF] Request starting HTTP/2 DELETE https://localhost:7153/api/Product/123 - -
+2024-10-02 20:46:01.282 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.ProductController.DeleteProduct (CMCCyberSecurity)'
+2024-10-02 20:46:01.285 +07:00 [INF] Route matched with {action = "DeleteProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteProduct(Int32) on controller CMCCyberSecurity.Controllers.ProductController (CMCCyberSecurity).
+2024-10-02 20:46:01.328 +07:00 [INF] Entity Framework Core 6.0.33 initialized 'CMCCyberSecurityContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-10-02 20:46:01.351 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__p_0
+2024-10-02 20:46:01.382 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.ProductController.DeleteProduct (CMCCyberSecurity) in 97.1105ms
+2024-10-02 20:46:01.382 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.ProductController.DeleteProduct (CMCCyberSecurity)'
+2024-10-02 20:46:07.024 +07:00 [ERR] ID of product is not exist
+CMCCyberSecurity.Helpers.HttpStatusException: ID of product is not exist
+   at CMCCyberSecurity.Controllers.ProductController.DeleteProduct(Int32 id) in D:\test\CMCCyberSecurity\CMCCyberSecurity\Controllers\ProductController.cs:line 73
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CMCCyberSecurity.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\test\CMCCyberSecurity\CMCCyberSecurity\Middleware\ErrorHandlingMiddleware.cs:line 23
+2024-10-02 20:46:17.072 +07:00 [INF] Request finished HTTP/2 DELETE https://localhost:7153/api/Product/123 - - - 501 - application/json;+charset=utf-8 15790.8695ms
+2024-10-02 21:43:08.495 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-02 21:43:09.022 +07:00 [INF] Now listening on: https://localhost:7153
+2024-10-02 21:43:09.023 +07:00 [INF] Now listening on: http://localhost:5211
+2024-10-02 21:43:09.025 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-02 21:43:09.026 +07:00 [INF] Hosting environment: Development
+2024-10-02 21:43:09.026 +07:00 [INF] Content root path: D:\test\CMCCyberSecurity\CMCCyberSecurity\
+2024-10-02 21:43:17.172 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-10-02 21:43:45.025 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-02 21:43:45.218 +07:00 [INF] Now listening on: https://localhost:7153
+2024-10-02 21:43:45.219 +07:00 [INF] Now listening on: http://localhost:5211
+2024-10-02 21:43:45.222 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-02 21:43:45.222 +07:00 [INF] Hosting environment: Development
+2024-10-02 21:43:45.222 +07:00 [INF] Content root path: D:\test\CMCCyberSecurity\CMCCyberSecurity\
+2024-10-02 21:43:52.089 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-10-02 21:43:52.336 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 250.8038ms
+2024-10-02 21:43:52.552 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-10-02 21:43:52.552 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-10-02 21:43:52.556 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 4.3040ms
+2024-10-02 21:43:52.612 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 60.0382ms
+2024-10-02 21:43:52.878 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-10-02 21:43:52.988 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 109.5464ms
+2024-10-02 21:43:58.759 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Product - -
+2024-10-02 21:43:59.401 +07:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-10-02 21:43:59.407 +07:00 [INF] AuthenticationScheme: Bearer was challenged.
+2024-10-02 21:43:59.407 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Product - - - 401 0 - 648.3480ms
+2024-10-02 21:44:16.702 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Auth/login application/json 67
+2024-10-02 21:44:16.707 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity)'
+2024-10-02 21:44:16.748 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CMCCyberSecurity.DTO.UserLoginDTO) on controller CMCCyberSecurity.Controllers.AuthController (CMCCyberSecurity).
+2024-10-02 21:44:17.761 +07:00 [INF] Entity Framework Core 6.0.33 initialized 'CMCCyberSecurityContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-10-02 21:44:18.944 +07:00 [INF] Executed DbCommand (67ms) [Parameters=[@__user_Email_0='?' (Size = 50) (DbType = AnsiString), @__HMACSHA256_1='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE ([u].[Email] = @__user_Email_0) AND ([u].[Password] = @__HMACSHA256_1)
+2024-10-02 21:44:19.207 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-02 21:44:19.213 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity) in 2460.6538ms
+2024-10-02 21:44:19.214 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity)'
+2024-10-02 21:44:19.225 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Auth/login application/json 67 - 200 - application/json;+charset=utf-8 2523.3462ms
+2024-10-02 21:44:36.931 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Product - -
+2024-10-02 21:44:37.003 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity)'
+2024-10-02 21:44:37.006 +07:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CMCCyberSecurity.Models.Product]]] GetProducts() on controller CMCCyberSecurity.Controllers.ProductController (CMCCyberSecurity).
+2024-10-02 21:44:39.609 +07:00 [INF] Entity Framework Core 6.0.33 initialized 'CMCCyberSecurityContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-10-02 21:44:39.635 +07:00 [INF] Executed DbCommand (16ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2024-10-02 21:44:41.698 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CMCCyberSecurity.Models.Product, CMCCyberSecurity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-02 21:44:41.704 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity) in 4698.0185ms
+2024-10-02 21:44:41.704 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity)'
+2024-10-02 21:44:41.705 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Product - - - 200 - application/json;+charset=utf-8 4773.7933ms
+2024-10-02 21:44:43.572 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Product - -
+2024-10-02 21:44:43.574 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity)'
+2024-10-02 21:44:43.574 +07:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CMCCyberSecurity.Models.Product]]] GetProducts() on controller CMCCyberSecurity.Controllers.ProductController (CMCCyberSecurity).
+2024-10-02 21:44:46.492 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CMCCyberSecurity.Models.Product, CMCCyberSecurity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-02 21:44:46.492 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity) in 2918.0908ms
+2024-10-02 21:44:46.492 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity)'
+2024-10-02 21:44:46.492 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Product - - - 200 - application/json;+charset=utf-8 2920.1644ms
+2024-10-02 21:44:48.062 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Product - -
+2024-10-02 21:44:48.062 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity)'
+2024-10-02 21:44:48.062 +07:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CMCCyberSecurity.Models.Product]]] GetProducts() on controller CMCCyberSecurity.Controllers.ProductController (CMCCyberSecurity).
+2024-10-02 21:44:51.501 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CMCCyberSecurity.Models.Product, CMCCyberSecurity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-02 21:44:51.502 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity) in 3439.5135ms
+2024-10-02 21:44:51.502 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity)'
+2024-10-02 21:44:51.502 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Product - - - 200 - application/json;+charset=utf-8 3440.2266ms
+2024-10-02 21:49:07.726 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-02 21:49:07.916 +07:00 [INF] Now listening on: https://localhost:7153
+2024-10-02 21:49:07.916 +07:00 [INF] Now listening on: http://localhost:5211
+2024-10-02 21:49:07.919 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-02 21:49:07.919 +07:00 [INF] Hosting environment: Development
+2024-10-02 21:49:07.919 +07:00 [INF] Content root path: D:\test\CMCCyberSecurity\CMCCyberSecurity\
+2024-10-02 21:49:16.127 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-10-02 21:49:16.481 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 357.9661ms
+2024-10-02 21:49:16.668 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-10-02 21:49:16.668 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-10-02 21:49:16.671 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3.1312ms
+2024-10-02 21:49:16.722 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.6244ms
+2024-10-02 21:49:16.988 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-10-02 21:49:17.090 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.2099ms
+2024-10-02 21:49:51.856 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Auth/login application/json 67
+2024-10-02 21:49:51.914 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity)'
+2024-10-02 21:49:51.949 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CMCCyberSecurity.DTO.UserLoginDTO) on controller CMCCyberSecurity.Controllers.AuthController (CMCCyberSecurity).
+2024-10-02 21:49:52.614 +07:00 [INF] Entity Framework Core 6.0.33 initialized 'CMCCyberSecurityContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-10-02 21:49:53.326 +07:00 [INF] Executed DbCommand (69ms) [Parameters=[@__user_Email_0='?' (Size = 50) (DbType = AnsiString), @__HMACSHA256_1='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE ([u].[Email] = @__user_Email_0) AND ([u].[Password] = @__HMACSHA256_1)
+2024-10-02 21:49:53.525 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-02 21:49:53.534 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity) in 1578.2273ms
+2024-10-02 21:49:53.535 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity)'
+2024-10-02 21:49:53.544 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Auth/login application/json 67 - 200 - application/json;+charset=utf-8 1687.9697ms
+2024-10-02 21:50:14.466 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Product - -
+2024-10-02 21:50:14.545 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity)'
+2024-10-02 21:50:14.547 +07:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CMCCyberSecurity.Models.Product]]] GetProducts() on controller CMCCyberSecurity.Controllers.ProductController (CMCCyberSecurity).
+2024-10-02 21:50:16.809 +07:00 [INF] Entity Framework Core 6.0.33 initialized 'CMCCyberSecurityContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-10-02 21:50:16.821 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2024-10-02 21:50:16.834 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CMCCyberSecurity.Models.Product, CMCCyberSecurity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-02 21:50:16.837 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity) in 2289.7274ms
+2024-10-02 21:50:16.837 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity)'
+2024-10-02 21:50:16.841 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Product - - - 200 - application/json;+charset=utf-8 2374.6444ms
+2024-10-02 21:51:44.027 +07:00 [INF] Request starting HTTP/2 PUT https://localhost:7153/api/Product/4?Id=1&Name=Hoang&Price=3123&Quantity=12&Description=123dsad - 0
+2024-10-02 21:51:44.036 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.ProductController.PutProduct (CMCCyberSecurity)'
+2024-10-02 21:51:44.039 +07:00 [INF] Route matched with {action = "PutProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutProduct(Int32, CMCCyberSecurity.Models.Product) on controller CMCCyberSecurity.Controllers.ProductController (CMCCyberSecurity).
+2024-10-02 21:51:44.095 +07:00 [INF] Entity Framework Core 6.0.33 initialized 'CMCCyberSecurityContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-10-02 21:51:44.101 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2024-10-02 21:51:44.141 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.ProductController.PutProduct (CMCCyberSecurity) in 101.5601ms
+2024-10-02 21:51:44.141 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.ProductController.PutProduct (CMCCyberSecurity)'
+2024-10-02 21:51:49.823 +07:00 [ERR] The instance of entity type 'Product' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+System.InvalidOperationException: The instance of entity type 'Product' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.set_State(EntityState value)
+   at CMCCyberSecurity.Controllers.ProductController.PutProduct(Int32 id, Product product) in D:\test\CMCCyberSecurity\CMCCyberSecurity\Controllers\ProductController.cs:line 52
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CMCCyberSecurity.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\test\CMCCyberSecurity\CMCCyberSecurity\Middleware\ErrorHandlingMiddleware.cs:line 23
+2024-10-02 21:51:49.982 +07:00 [INF] Request finished HTTP/2 PUT https://localhost:7153/api/Product/4?Id=1&Name=Hoang&Price=3123&Quantity=12&Description=123dsad - 0 - 500 - application/json;+charset=utf-8 5955.4406ms
+2024-10-02 21:51:52.447 +07:00 [INF] Request starting HTTP/2 PUT https://localhost:7153/api/Product/4?Name=Hoang&Price=3123&Quantity=12&Description=123dsad - 0
+2024-10-02 21:51:52.448 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.ProductController.PutProduct (CMCCyberSecurity)'
+2024-10-02 21:51:52.448 +07:00 [INF] Route matched with {action = "PutProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutProduct(Int32, CMCCyberSecurity.Models.Product) on controller CMCCyberSecurity.Controllers.ProductController (CMCCyberSecurity).
+2024-10-02 21:51:52.449 +07:00 [INF] Entity Framework Core 6.0.33 initialized 'CMCCyberSecurityContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-10-02 21:51:52.455 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2024-10-02 21:51:52.473 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.ProductController.PutProduct (CMCCyberSecurity) in 24.8592ms
+2024-10-02 21:51:52.473 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.ProductController.PutProduct (CMCCyberSecurity)'
+2024-10-02 21:51:57.023 +07:00 [ERR] The instance of entity type 'Product' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+System.InvalidOperationException: The instance of entity type 'Product' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.set_State(EntityState value)
+   at CMCCyberSecurity.Controllers.ProductController.PutProduct(Int32 id, Product product) in D:\test\CMCCyberSecurity\CMCCyberSecurity\Controllers\ProductController.cs:line 52
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CMCCyberSecurity.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\test\CMCCyberSecurity\CMCCyberSecurity\Middleware\ErrorHandlingMiddleware.cs:line 23
+2024-10-02 21:51:57.024 +07:00 [INF] Request finished HTTP/2 PUT https://localhost:7153/api/Product/4?Name=Hoang&Price=3123&Quantity=12&Description=123dsad - 0 - 500 - application/json;+charset=utf-8 4577.0590ms
+2024-10-02 21:51:59.759 +07:00 [INF] Request starting HTTP/2 PUT https://localhost:7153/api/Product/4?Id=4&Name=Hoang&Price=3123&Quantity=12&Description=123dsad - 0
+2024-10-02 21:51:59.759 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.ProductController.PutProduct (CMCCyberSecurity)'
+2024-10-02 21:51:59.759 +07:00 [INF] Route matched with {action = "PutProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutProduct(Int32, CMCCyberSecurity.Models.Product) on controller CMCCyberSecurity.Controllers.ProductController (CMCCyberSecurity).
+2024-10-02 21:51:59.760 +07:00 [INF] Entity Framework Core 6.0.33 initialized 'CMCCyberSecurityContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-10-02 21:51:59.761 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2024-10-02 21:51:59.777 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.ProductController.PutProduct (CMCCyberSecurity) in 17.5695ms
+2024-10-02 21:51:59.777 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.ProductController.PutProduct (CMCCyberSecurity)'
+2024-10-02 21:52:02.554 +07:00 [ERR] The instance of entity type 'Product' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+System.InvalidOperationException: The instance of entity type 'Product' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.set_State(EntityState value)
+   at CMCCyberSecurity.Controllers.ProductController.PutProduct(Int32 id, Product product) in D:\test\CMCCyberSecurity\CMCCyberSecurity\Controllers\ProductController.cs:line 52
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CMCCyberSecurity.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\test\CMCCyberSecurity\CMCCyberSecurity\Middleware\ErrorHandlingMiddleware.cs:line 23
+2024-10-02 21:52:02.555 +07:00 [INF] Request finished HTTP/2 PUT https://localhost:7153/api/Product/4?Id=4&Name=Hoang&Price=3123&Quantity=12&Description=123dsad - 0 - 500 - application/json;+charset=utf-8 2796.1235ms
+2024-10-02 21:52:27.775 +07:00 [INF] Request starting HTTP/2 PUT https://localhost:7153/api/Product/4?Id=4&Name=Hoang&Price=3123&Quantity=12&Description=123dsad - 0
+2024-10-02 21:52:27.777 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.ProductController.PutProduct (CMCCyberSecurity)'
+2024-10-02 21:52:27.781 +07:00 [INF] Route matched with {action = "PutProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutProduct(Int32, CMCCyberSecurity.Models.Product) on controller CMCCyberSecurity.Controllers.ProductController (CMCCyberSecurity).
+2024-10-02 21:52:29.355 +07:00 [INF] Entity Framework Core 6.0.33 initialized 'CMCCyberSecurityContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-10-02 21:52:29.358 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2024-10-02 21:52:29.881 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.ProductController.PutProduct (CMCCyberSecurity) in 2099.9064ms
+2024-10-02 21:52:29.881 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.ProductController.PutProduct (CMCCyberSecurity)'
+2024-10-02 21:52:31.328 +07:00 [ERR] The instance of entity type 'Product' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+System.InvalidOperationException: The instance of entity type 'Product' cannot be tracked because another instance with the same key value for {'Id'} is already being tracked. When attaching existing entities, ensure that only one entity instance with a given key value is attached. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see the conflicting key values.
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.ThrowIdentityConflict(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.IdentityMap`1.Add(TKey key, InternalEntityEntry entry, Boolean updateDuplicate)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.StartTracking(InternalEntityEntry entry)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.InternalEntityEntry.SetEntityState(EntityState oldState, EntityState newState, Boolean acceptChanges, Boolean modifyProperties)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry.set_State(EntityState value)
+   at CMCCyberSecurity.Controllers.ProductController.PutProduct(Int32 id, Product product) in D:\test\CMCCyberSecurity\CMCCyberSecurity\Controllers\ProductController.cs:line 52
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at CMCCyberSecurity.Middleware.ErrorHandlingMiddleware.Invoke(HttpContext context) in D:\test\CMCCyberSecurity\CMCCyberSecurity\Middleware\ErrorHandlingMiddleware.cs:line 23
+2024-10-02 21:54:39.143 +07:00 [INF] User profile is available. Using 'C:\Users\ADMIN\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-10-02 21:54:39.331 +07:00 [INF] Now listening on: https://localhost:7153
+2024-10-02 21:54:39.331 +07:00 [INF] Now listening on: http://localhost:5211
+2024-10-02 21:54:39.334 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-02 21:54:39.334 +07:00 [INF] Hosting environment: Development
+2024-10-02 21:54:39.334 +07:00 [INF] Content root path: D:\test\CMCCyberSecurity\CMCCyberSecurity\
+2024-10-02 21:54:56.042 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/index.html - -
+2024-10-02 21:54:56.311 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/index.html - - - 200 - text/html;charset=utf-8 271.6703ms
+2024-10-02 21:54:56.518 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_vs/browserLink - -
+2024-10-02 21:54:56.518 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - -
+2024-10-02 21:54:56.521 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_framework/aspnetcore-browser-refresh.js - - - 200 12002 application/javascript;+charset=utf-8 3.4754ms
+2024-10-02 21:54:56.571 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.2349ms
+2024-10-02 21:54:56.871 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - -
+2024-10-02 21:54:56.974 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.4949ms
+2024-10-02 21:56:28.496 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7153/api/Auth/login application/json 67
+2024-10-02 21:56:28.551 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity)'
+2024-10-02 21:56:28.579 +07:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(CMCCyberSecurity.DTO.UserLoginDTO) on controller CMCCyberSecurity.Controllers.AuthController (CMCCyberSecurity).
+2024-10-02 21:56:29.238 +07:00 [INF] Entity Framework Core 6.0.33 initialized 'CMCCyberSecurityContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-10-02 21:56:29.924 +07:00 [INF] Executed DbCommand (73ms) [Parameters=[@__user_Email_0='?' (Size = 50) (DbType = AnsiString), @__HMACSHA256_1='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[Email], [u].[Name], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE ([u].[Email] = @__user_Email_0) AND ([u].[Password] = @__HMACSHA256_1)
+2024-10-02 21:56:30.118 +07:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-10-02 21:56:30.125 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity) in 1541.4046ms
+2024-10-02 21:56:30.126 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.AuthController.Login (CMCCyberSecurity)'
+2024-10-02 21:56:30.137 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7153/api/Auth/login application/json 67 - 200 - application/json;+charset=utf-8 1641.4449ms
+2024-10-02 21:56:40.953 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Product - -
+2024-10-02 21:56:41.031 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity)'
+2024-10-02 21:56:41.033 +07:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CMCCyberSecurity.Models.Product]]] GetProducts() on controller CMCCyberSecurity.Controllers.ProductController (CMCCyberSecurity).
+2024-10-02 21:56:42.672 +07:00 [INF] Entity Framework Core 6.0.33 initialized 'CMCCyberSecurityContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-10-02 21:56:42.694 +07:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2024-10-02 21:56:42.707 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CMCCyberSecurity.Models.Product, CMCCyberSecurity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-02 21:56:42.711 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity) in 1678.5022ms
+2024-10-02 21:56:42.711 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity)'
+2024-10-02 21:56:42.713 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Product - - - 200 - application/json;+charset=utf-8 1759.4790ms
+2024-10-02 21:56:56.754 +07:00 [INF] Request starting HTTP/2 PUT https://localhost:7153/api/Product/4?Name=hoang&Price=1&Quantity=2&Description=dd - 0
+2024-10-02 21:56:56.758 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.ProductController.PutProduct (CMCCyberSecurity)'
+2024-10-02 21:56:56.762 +07:00 [INF] Route matched with {action = "PutProduct", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutProduct(Int32, CMCCyberSecurity.DTO.ProductUpdateDTO) on controller CMCCyberSecurity.Controllers.ProductController (CMCCyberSecurity).
+2024-10-02 21:56:58.200 +07:00 [INF] Entity Framework Core 6.0.33 initialized 'CMCCyberSecurityContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-10-02 21:56:58.206 +07:00 [INF] Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[Id], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+WHERE [p].[Id] = @__id_0
+2024-10-02 21:57:01.114 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?' (Size = 8000) (DbType = AnsiString), @p1='?' (Size = 100), @p2='?' (Precision = 18) (DbType = Decimal), @p3='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [Products] SET [Description] = @p0, [Name] = @p1, [Price] = @p2, [Quantity] = @p3
+WHERE [Id] = @p4;
+SELECT @@ROWCOUNT;
+2024-10-02 21:57:02.430 +07:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2024-10-02 21:57:02.430 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.ProductController.PutProduct (CMCCyberSecurity) in 5668.0339ms
+2024-10-02 21:57:02.430 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.ProductController.PutProduct (CMCCyberSecurity)'
+2024-10-02 21:57:02.430 +07:00 [INF] Request finished HTTP/2 PUT https://localhost:7153/api/Product/4?Name=hoang&Price=1&Quantity=2&Description=dd - 0 - 204 - - 5676.3531ms
+2024-10-02 21:57:09.361 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7153/api/Product - -
+2024-10-02 21:57:09.363 +07:00 [INF] Executing endpoint 'CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity)'
+2024-10-02 21:57:09.363 +07:00 [INF] Route matched with {action = "GetProducts", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CMCCyberSecurity.Models.Product]]] GetProducts() on controller CMCCyberSecurity.Controllers.ProductController (CMCCyberSecurity).
+2024-10-02 21:57:11.506 +07:00 [INF] Entity Framework Core 6.0.33 initialized 'CMCCyberSecurityContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.33' with options: None
+2024-10-02 21:57:11.507 +07:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Name], [p].[Price], [p].[Quantity]
+FROM [Products] AS [p]
+2024-10-02 21:57:13.966 +07:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[CMCCyberSecurity.Models.Product, CMCCyberSecurity, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-10-02 21:57:13.966 +07:00 [INF] Executed action CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity) in 4603.1863ms
+2024-10-02 21:57:13.966 +07:00 [INF] Executed endpoint 'CMCCyberSecurity.Controllers.ProductController.GetProducts (CMCCyberSecurity)'
+2024-10-02 21:57:13.966 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7153/api/Product - - - 200 - application/json;+charset=utf-8 4605.0068ms
